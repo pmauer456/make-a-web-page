@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment -->
+<head>
+  <title>Paul's Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson-1-1">How the Web Works</a></li>
+          <li><a href="#lesson-1-2">HTML</a></li>
+          <li><a href="#lesson-1-3">Tags and Elements</a></li>
+          <li><a href="#lesson-1-4">Why Computers are Stupid</a></li>
+          <li><a href="#lesson-1-5">Inline vs Block Elements</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Developer Tools</a></li>
+          <li><a href="#lesson-2-2">HTML's "tree-like" Structure</a></li>
+          <li><a href="#lesson-2-3">Indentations and Boxes</a></li>
+          <li><a href="#lesson-2-4">Text Editors</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a href="#lesson-3-1">Avoiding Repetition</a></li>
+          <li><a href="#lesson-3-2">CSS</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <h1>Important Concepts</h1>
+  <div class="lesson">
+    <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+    <div class="concept" id="lesson-1-1">
+      <div class="concept-title">
+        How the Web Works
+      </div>
+      <div class="concept-description">
+        <p>
+          The web is a network of computers that can communicate with
+          each other. When a person goes to a web page their computer sends an
+          <em>HTTP Request</em> to
+          a server.  The server finds the appropriate HTML document and sends
+          it back to the user's computer where a <em>
+          web browser</em> interprets the page and displays it on
+          the user's screen.
+          <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>
+          does a good job of explaining more.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-2">
+      <div class="concept-title">
+        HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML stands for <em>Hypertext Markup
+          Language.</em> HTML is the "language" of the web. You must know the proper snytax and structure of HTML to create webpages. 
+        </p>
+        <p>
+          HTML documents contain <em>text
+          content</em> which describes "what you see" and
+          <em>markup</em> which describes
+          "how it looks". <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">This
+          video</a> gives a good overview.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-3">
+      <div class="concept-title">
+        Tags and Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML documents are made of HTML
+          <b>elements</b>. When writing HTML, we
+          tell browsers the type of each element by using HTML
+          <b>tags</b>.  Here are some examples:
+          This is <b> bolded. </b> With a line break after. <br>
+        This is <em> italizied</em> With a new paragraph after. 
+        <p>This is a link (anchor tag) to  <a href = "www.paulmauer.com">my site.</a>  You can also display images and other such content using HTML.
+          <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a> explains the
+          distinction well.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-4">
+      <div class="concept-title">
+        Why Computers are NOT Stupid
+      </div>
+      <div class="concept-description">
+        <p>
+          Computers are <em> NOT </em>stupid. However they do interpret
+          instructions literally. Which is why it's important to know how to tell them to do what you want done.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-5">
+      <div class="concept-title">
+        Inline vs Block Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements are either <b>inline</b>
+          or <b>block</b>. Block elements form
+          an "invisible box" around the content inside of them.  Inline elements do not.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept" id="lesson-2-1">
+      <div class="concept-title">
+        Developer Tools (in the Browser)
+      </div>
+      <div class="concept-description">
+        <p>
+          Developer tools (available in all browers) are a handy way to let you see the code that is generating the page that you are viewing.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-2">
+      <div class="concept-title">
+        The "tree-like structure" of HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          The "tree-like structure" comes from the fact that HTML
+          elements can have other elements inside of them. You can
+          draw this relationship like a family tree. 
+        </p>
+        <p>
+          In a browser, this structure shows up as a series
+          of nested boxes. There are boxes inside of boxes
+          inside of boxes, and so on...
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-3">
+      <div class="concept-title">
+        The relationship between indented HTML and boxes
+      </div>
+      <div class="concept-description">
+        <p>
+          When you read an HTML document as
+          <em>text</em>, you see a wave of
+          changing indentations going up and down the left side
+          of the document. The more indented an element is, the
+          more deeply nested its corresponding "box" is.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-4">
+      <div class="concept-title">
+        Text Editors (for programming)
+      </div>
+      <div class="concept-description">
+        <p>
+          When writing code, programmers use special text editors. These editors make the programmer's life easier. For example, some text editors
+          will automatically generate a closing HTML tag when you
+          write an opening tag.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="lesson-3-1">
+      <div class="concept-title">
+        Avoiding Repetition
+      </div>
+      <div class="concept-description">
+        <p>
+          Avoiding repetition is important for a variety of reasons.
+        </p>
+        <p>
+          <b>Avoiding Errors:</b> Programmers are human and humans make mistakes.  When coding it's always advisable to do what you can to avoid typing errors.  If you limit the times that you are typing the same thing over and over you will avoid introducing typos in your code that will do nothing but cause you headaches later on.
+        </p>
+        <p>
+          <b>Consistency:</b> In this web page, I wanted every lesson to look the same. By using CSS to do this I was able to avoid repetion and make it very easy for me to make changes to this style.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-2">
+      <div class="concept-title">
+        CSS
+      </div>
+      <div class="concept-description">
+        <p>
+          CSS stands for "Cascading Style Sheets" and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same "class name" and then specifying the style that should apply to that class.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
